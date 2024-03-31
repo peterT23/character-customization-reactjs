@@ -110,6 +110,8 @@ body {
   background-color: white;
   margin: 10px 0;
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
   gap: 1rem;
   border-radius: 20px;
