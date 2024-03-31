@@ -19,10 +19,30 @@ export const imageData = {
   eyes: { title: "Eyes", total: 24, link: "./character/eyes" },
   facialHair: {
     title: "Facial Hair",
-    total: 17,
+    total: 18,
     link: "./character/facial_hair",
   },
   hair: { title: "Hair", total: 73, link: "./character/hair" },
   mouths: { title: "Mouths", total: 24, link: "./character/mouths" },
   noses: { title: "Nose", total: 1, link: "./character/noses" },
+  earrings: {
+    title: "Earrings",
+    total: 32,
+    link: "./character/accessories/earrings",
+  },
+  glasses: {
+    title: "Glasses",
+    total: 17,
+    link: "./character/accessories/glasses",
+  },
+  hats: {
+    title: "Hats",
+    total: 28,
+    link: "./character/accessories/hats",
+  },
+  neckwear: {
+    title: "Neckwear",
+    total: 18,
+    link: "./character/accessories/neckwear",
+  },
 };
