@@ -12,16 +12,16 @@ export default function ImageList({ name, setAvatar, avatarObj }) {
       <ImageSquare
         key={`${name}${i}`}
         imageSrc={imageUrl}
-        handleImageSelected={() => {
-          setAvatar((avatar) => {
-            avatar[name] = imageUrl;
-            return { ...avatar };
-          });
-        }}
         // handleImageSelected={() => {
-        //   avatarObj[name] = imageUrl;
-        //   setAvatar({ ...avatarObj });
+        //   setAvatar((avatar) => {
+        //     avatar[name] = imageUrl;
+        //     return { ...avatar };
+        //   });
         // }}
+        handleImageSelected={() => {
+          avatarObj[name] = imageUrl;
+          setAvatar({ ...avatarObj });
+        }}
         className={avatarImage === imageUrl ? "selected" : ""}
       />
     );

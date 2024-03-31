@@ -31,7 +31,11 @@ export default function DisplayAvatar({ avatar, handleRandomize }) {
         <img src={noses} alt="" style={{ zIndex: 4 }} />
         <img src={earrings} alt="" style={{ zIndex: 5 }} />
         <img src={glasses} alt="" style={{ zIndex: 6 }} />
-        <img src={hats} alt="" style={{ zIndex: 7 }} />
+        <img
+          src={hats}
+          alt=""
+          style={{ zIndex: 7, width: "110%", left: "-5%", top: "-9%" }}
+        />
         <img src={neckwear} alt="" style={{ zIndex: 5 }} />
       </div>
       <div className="randomize">
