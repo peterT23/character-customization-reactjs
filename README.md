@@ -1,70 +1,41 @@
-# Getting Started with Create React App
+# Character Customization Game
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the **Character Customization Game**! This ReactJS-based game allows players to create and customize their own character by selecting different facial features, hairstyles, clothing, and accessories. Dive into the fun of designing a unique avatar that represents your style!
 
-## Available Scripts
+![Character Customization Game](![Screenshot 2024-08-12 at 22 04 24](https://github.com/user-attachments/assets/eed0cb3f-6cb6-4f4e-af08-810916a933cd)
+)
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- 🧑 **Face Customization**: Modify the character's face by choosing different facial shapes, noses, and eyes.
+- 💇 **Hair Styling**: Select from a variety of hairstyles to give your character the perfect look.
+- 👒 **Accessories**: Add caps, hats, and other accessories to enhance your character's appearance.
+- 👕 **Outfit Selection**: Pick and choose from different shirts and outfits to dress up your character.
+- 🎨 **Real-time Preview**: See changes applied in real-time as you customize the character.
+- 📱 **Responsive Design**: Fully responsive design, ensuring a smooth experience across all devices.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Technologies Used
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Frontend**: ReactJS, JavaScript, CSS
+- **State Management**: React Hooks (useState, useEffect)
+- **UI Components**: Custom components with CSS styling
 
-### `npm test`
+## Installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To run the Character Customization Game locally, follow these steps:
 
-### `npm run build`
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/peterT23/character-customization-game.git
+2. Navigate to the project directory:
+  cd character-customization Game
+3. Install dependencies:
+    npm install
+4. start the development server
+   npm start
+## Usage
+1. Customize the Character: Use the provided options to change the character's face, hair, eyes, nose, and other features.
+2. Outfit Your Character: Select different shirts and accessories like caps to outfit your character.
+3. Real-time Preview: Watch as your character updates instantly with each selection.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Link demo: https://reactjs-character-customization.netlify.app/
